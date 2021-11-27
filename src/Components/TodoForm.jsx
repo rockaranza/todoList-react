@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef }from 'react'
 
-// import './TodoForm.styles.css';
+import './TodoForm.styles.css';
 
 const TodoForm = (props) => {
 
@@ -38,7 +38,7 @@ const TodoForm = (props) => {
                 onChange= {handleChange}
                 ref={inputRef} //FOCO!
             />
-            <button className="todo-button">Agregar tarea</button>
+            <button className="todo-button">Agregar</button>
         </form>
     )
 }

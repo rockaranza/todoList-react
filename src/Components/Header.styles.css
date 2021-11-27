@@ -8,13 +8,14 @@
     font-size: 2rem;
 }
 
-.main-container {
-    width: 50%;
-    height: 90vh;
-    margin: 0 auto;
-    padding-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
+@media(max-width: 520px) {
+    .header-container {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 428px) {
+    .header-container {
+        font-size: 1rem;
+    }
 }
