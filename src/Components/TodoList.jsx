@@ -43,10 +43,9 @@ function TodoList() {
     };
 
     return (
-        <div>
-            <h1>¿Qué tienes pensado para hoy?</h1>
-            <TodoForm onSubmit={addTodo}/>
-            <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
+        <div className="main-container">
+                <TodoForm onSubmit={addTodo}/>
+                <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>       
         </div>
     )
 }
